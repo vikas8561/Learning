@@ -5,5 +5,7 @@ for(let i = 0; i < arr.length; i++){
         console.log("Even Number");
     }else if(arr[i] % 2 !== 0){
         console.log("Odd Number");
+    }else{
+        console.log("Invalid Number");
     }
 }
